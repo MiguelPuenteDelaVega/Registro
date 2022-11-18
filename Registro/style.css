@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto';
+    background: #4568DC;
+
+    background: #F0F2F0;
+    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0); 
+    background: linear-gradient(to right, #000C40, #F0F2F0);
+    
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --dark: #16191C;
+    --dark-x: #ffffff; 
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
